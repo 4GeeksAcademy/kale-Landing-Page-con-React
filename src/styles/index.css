@@ -1,12 +1,20 @@
+.navbar {
+    background-color: #343a40;
+    padding: 0.75rem 1rem;
+}
 
-/* 
+.navbar .nav-link.active {
+    font-weight: bold;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.navbar-nav .nav-link:hover {
+    color: #dddddd !important;
+}
 
-*/
+.navbar-nav .nav-link.disabled {
+    color: #6c757d !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
